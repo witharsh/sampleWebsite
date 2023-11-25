@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding:0 ;
+    
+}
+.navbar{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+}
+
+.nav-pills .active{
+    color: white !important;
+    background-color: #0f8acd !important;
+    border-radius: 0px !important;
+    height: 100% !important;
+}
+
+.blog{
+    display: flex;
+    color:white;
+    background-color: #f16236;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height:30px;
+}
+
+
+.learnButton{
+    height: 45px;
+    width: 50%;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    background-color: #f16236 !important;
+    border-radius: 4px;
+    
+}
+.hero{
+    height:60vh ;
+    color: white;
+    background-image: url("/Images/bgpic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.PortfolioHead h3{
+    color: #f16236;
+}
+.PortfolioHead button{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0f8acd;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.service{
+    color: white;
+    padding-top:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0f8acd;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.portfolio{
+    height: 90vh;
+}
+
+.card-body h4{
+    
+    color: #f16236;
+}
+
+.blueHeading{
+    color: #0f8acd;
+}
+.offerSubHeading{
+    color: #0f8acd;
+}
+
+.offer button{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0f8acd !important;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0;
+}
+.offer a{
+    color:#0f8acd;
+}
+
+
+.testimonials{
+    text-align: center;
+}
+
+#image-heading{
+    margin-top: 80px;
+    color: #f16236;
+}
+.image-container {
+    display: inline-block;
+    margin: 10px 0px;
+    text-align: center;
+
+  }
+  
+  .image-container img {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: auto;
+    border-radius: 90%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+
+  .selected {
+    border-bottom: 3px solid #f16236;
+  }
+
+  .footer-head{
+    color: #f16236;
+  }
+  
+ 
+  .input-box{
+    width: 100%;
+  }
+
+  .contactTable{
+    border-spacing: 300px;
+  }
+
+  .footer{
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+.signBtn{
+    background-color: #0f8acd;
+    color: white;
+    border: 0px;
+    width: 75px;
+    border-radius: 4px;
+}
+  .linkDeco{
+    color: #0f8acd;
+    text-decoration: none;
+  }

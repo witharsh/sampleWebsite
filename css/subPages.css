@@ -1,0 +1,260 @@
+
+*{
+    margin: 0;
+    padding:0 ;
+    
+}
+.navbar{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+}
+
+.nav-pills .active{
+    color: white !important;
+    background-color: #0f8acd !important;
+    border-radius: 0px !important;
+    height: 100% !important;
+}
+
+.blog{
+    display: flex;
+    color:white;
+    background-color: #f16236;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height:30px;
+}
+
+.hero{
+    height:30vh ;
+    color: white;
+    background-image: url("/Images/bgpic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolioHeading{
+    color: #0f8acd;
+}
+
+.portfolioNavbar{
+    border: 2px solid #0f8acd ;
+}
+
+.v-line{
+  
+  background-color: black;
+  width: 1px;
+  height: 20px;
+  
+}
+.vRuler{
+  
+  background-color: black;
+  width: 1px;
+  height: 200px;
+  
+  
+}
+.dropdown-menu{
+  background: #f16236 !important;
+  border-radius:0%!important;
+}
+
+.clients{
+    border-top: 2px solid #0f8acd ;
+    border-bottom: 2px solid #0f8acd ;
+}
+
+.testimonials{
+  text-align: center;
+}
+
+.blueHeading{
+    color: #0f8acd !important;
+}
+#image-heading{
+    margin-top: 80px;
+    color: #f16236;
+}
+.image-container {
+    display: inline-block;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: auto;
+    border-radius: 90%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+
+  .selected {
+    border-bottom: 5px solid #f16236;
+    margin-bottom: 0px;
+  }
+  
+  .footer-head{
+    color: #f16236;
+  }
+ 
+  .input-box{
+    width: 100%;
+  }
+
+  .contactTable{
+    border-spacing: 300px;
+  }
+
+  .footer{
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+.signBtn{
+    background-color: #0f8acd;
+    color: white;
+    border: 0px;
+    width: 75px;
+    border-radius: 4px;
+}
+  .linkDeco{
+    color: #0f8acd;
+    text-decoration: none;
+  }
+
+  .contact-Container {
+    display: flex;
+    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
+    justify-content: center;
+    align-items: start; /* Align items vertically centered */
+    padding: 20px;
+  }
+
+  .section {
+    flex-basis: calc(50% - 1px); /* Take up 50% width minus border */
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    text-align: center; /* Align text content in the center */
+    box-sizing: border-box; /* Include padding and border in total width */
+  }
+.alignSec{
+  text-align: left;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+  .section:last-child {
+    border-right: none;
+  }
+
+  
+  .social-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px;
+    width: 100%;
+  }
+  .employee-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .employee-card1 {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow:  -7px -7px 0px grey;
+    box-sizing: border-box;
+  }
+  .employee-card2 {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow:  7px -7px 0px grey;
+    box-sizing: border-box;
+  }
+
+  .upper-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .employee-image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  .right-section {
+    flex: 2;
+    padding-left: 10px;
+  }
+  
+  .contact-name {
+    font-weight: bold;
+  }
+  
+  .lower-section {
+    margin-top: 10px;
+  }
+
+  .button-container {
+    margin-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-button {
+    background-color: #0f8acd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  @media (max-width: 995px) {
+    .section {
+      flex-basis: 100%; /* Take up full width on smaller screens */
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+    }
+    .employee-card1 {
+      width: 100%;
+    }
+    .employee-card2 {
+      width: 100%;
+      box-shadow:  -7px -7px 0px grey;
+    }
+  }
+  @media (max-width: 768px) {
+    .alignSec{
+      
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+    
+  }
